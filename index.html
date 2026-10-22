@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maria | IT Student Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a href="#home" class="brand">
+        <span class="brand-mark">M</span>
+        <span class="brand-name">Maria<span class="dot">.</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero container">
+      <div class="hero-text">
+        <span class="badge"><span class="badge-dot"></span> Aspiring Web Developer</span>
+        <h1>Hello,<br>I'm <span class="gradient-text">Maria.</span></h1>
+        <h2 class="hero-sub">IT Student &amp; Future Web Developer</h2>
+        <p class="lead">
+          I am an Information Technology student passionate about creating clean,
+          user-friendly, and meaningful digital experiences. I enjoy learning new
+          technologies and improving my development skills.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Projects <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/satinitiganmaria2004" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/maria-magdalena-satinitigan-056aba444" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:satinitigan.maria2004@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <!-- Put your photo at images/maria.jpg -->
+          <img src="images/photo.png" alt="Portrait of Maria" onerror="this.style.display='none'">
+        </div>
+        <div class="float-card">
+          <span class="float-icon"><i class="fa-solid fa-code"></i></span>
+          <strong>Building my future in tech</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container">
+      <p class="eyebrow">Get to know me</p>
+      <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      <p class="section-sub">A little introduction about who I am and what I do.</p>
+
+      <div class="grid grid-2">
+        <article class="card">
+          <span class="card-icon"><i class="fa-solid fa-user-graduate"></i></span>
+          <div>
+            <h3>Who I Am</h3>
+            <p>I am an Information Technology student who enjoys exploring web development, learning new technical skills, and creating useful digital solutions.</p>
+          </div>
+        </article>
+        <article class="card">
+          <span class="card-icon"><i class="fa-solid fa-lightbulb"></i></span>
+          <div>
+            <h3>My Goal</h3>
+            <p>My goal is to become a skilled web developer by continuously improving my abilities and building accessible, creative, and user-friendly websites.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container">
+      <p class="eyebrow">What I work with</p>
+      <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+      <p class="section-sub">Technologies and practices I am learning and developing.</p>
+
+      <div class="grid grid-3">
+        <article class="card card-col">
+          <header class="card-head">
+            <span class="card-icon"><i class="fa-solid fa-code"></i></span>
+            <div><h3>Languages</h3><p class="small">Core web development technologies.</p></div>
+          </header>
+          <ul class="chips">
+            <li><i class="fa-brands fa-html5"></i> HTML</li>
+            <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+            <li><i class="fa-brands fa-js"></i> JavaScript</li>
+            <li><i class="fa-brands fa-php"></i> PHP</li>
+          </ul>
+        </article>
+
+        <article class="card card-col">
+          <header class="card-head">
+            <span class="card-icon"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+            <div><h3>Tools</h3><p class="small">Tools I use to build projects.</p></div>
+          </header>
+          <ul class="chips">
+            <li><i class="fa-brands fa-github"></i> Git &amp; GitHub</li>
+            <li><i class="fa-solid fa-code"></i> VS Code</li>
+            <li><i class="fa-solid fa-paper-plane"></i> Postman</li>
+          </ul>
+        </article>
+
+        <article class="card card-col">
+          <header class="card-head">
+            <span class="card-icon"><i class="fa-solid fa-star"></i></span>
+            <div><h3>Practices</h3><p class="small">Principles I apply in my work.</p></div>
+          </header>
+          <ul class="chips">
+            <li><i class="fa-solid fa-display"></i> Responsive Design</li>
+            <li><i class="fa-solid fa-palette"></i> UI Design</li>
+            <li><i class="fa-solid fa-puzzle-piece"></i> Problem Solving</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+      <p class="eyebrow">My recent work</p>
+      <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+      <p class="section-sub">Some projects that represent my learning journey.</p>
+
+      <div class="grid grid-3">
+        <article class="card project">
+          <div class="project-media">
+      
+            <img src="images/bayani game.png" alt="Bayani typing game title screen" onerror="this.style.display='none'">
+            <span class="project-no">01</span>
+          </div>
+          <div class="project-body">
+            <p class="eyebrow">Group Project</p>
+            <h3>BAYANI 3D: Heroic Arena</h3>
+            <p>A browser-based Filipino typing game where you type hero names to lock on to and defeat zombie enemies across waves.</p>
+            <ul class="tags"><li class="tag-label">Contribution:</li><li>UI/UX</li></ul>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-media project-icon">
+            <img src="images/sword.png" alt="Bayani typing game title screen" onerror="this.style.display='none'"><i class="fa-solid fa-laptop-code"></i>
+            <span class="project-no">02</span></div><div class="project-body">
+            <p class="eyebrow">Group Project</p>
+            <h3>SWORD SLASHERS</h3>
+            <p>A loading screen for Sword Slashers a fantasy action game showing a team of cartoon ninja heroes facing off against
+                a horde of monsters led by a giant armored orc.</p>
+            <ul class="tags"><li class="tag-label">contribution:</li><li>UI/UX</li></ul>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-media project-icon"><img src="images/portfolio.png" alt="Bayani typing game title screen" onerror="this.style.display='none'"><i class="fa-solid fa-laptop-code"></i><i class="fa-solid fa-diagram-project"></i><span class="project-no">03</span></div>
+          <div class="project-body">
+            <p class="eyebrow">individual Project</p>
+            <h3>PORTFOLIO</h3>
+            <p>This personal portfolio website showcases an IT student's introduction, profile, skills, projects, and contact information through a modern, elegant design with a dark maroon background and gold accents.</p>
+            <ul class="tags"><li class="tag-label">Contribution:</li<li>BACK END</li><li>UI/UX</li></ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <div class="contact-box">
+        <div class="contact-text">
+          <p class="eyebrow">Let's connect</p>
+          <h2 class="section-title">Have a project in <span class="gradient-text">mind?</span></h2>
+          <p>I am always open to learning, collaborating, and connecting with people who share an interest in technology and web development.</p>
+          <a href="mailto:satinitigan.maria2004@gmail.com" class="btn btn-primary"><i class="fa-regular fa-envelope"></i> Send Me an Email</a>
+        </div>
+        <div class="contact-list">
+          <a class="contact-item" href="mailto:satinitigan.maria2004@gmail.com">
+            <span class="card-icon"><i class="fa-regular fa-envelope"></i></span>
+            <span><small>Email</small><strong>satinitigan.maria2004@gmail.com</strong></span>
+          </a>
+          <a class="contact-item" href="https://github.com/satinitiganmaria2004" target="_blank" rel="noopener">
+            <span class="card-icon"><i class="fa-brands fa-github"></i></span>
+            <span><small>GitHub</small><strong>satinitiganmaria2004</strong></span>
+          </a>
+          <a class="contact-item" href="https://www.linkedin.com/in/maria-magdalena-satinitigan-056aba444" target="_blank" rel="noopener">
+            <span class="card-icon"><i class="fa-brands fa-linkedin-in"></i></span>
+            <span><small>LinkedIn</small><strong>Maria Magdalena Satinitigan</strong></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <a href="#home" class="brand"><span class="brand-mark">M</span><span class="brand-name">Maria<span class="dot">.</span></span></a>
+    <p>Designed and built by Maria.</p>
+    <button id="toTop" class="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  </footer>
+
+<!-- SETTINGS -->
+<button id="settingsBtn" class="settings-btn" aria-label="Open settings" aria-expanded="false" aria-controls="settingsPanel">
+  <i class="fa-solid fa-gear"></i>
+</button>
+
+<div id="settingsPanel" class="settings-panel" hidden>
+  <h3>Settings</h3>
+
+  <p class="settings-label">theme:</p>
+  <div class="settings-row">
+    <button class="opt" data-theme="pink"><span class="swatch" style="background:#D9527A"></span></button>
+    <button class="opt" data-theme="dark"><span class="swatch" style="background:#1B0F1A"></span></button>
+    <button class="opt" data-theme="ocean"><span class="swatch" style="background:#2F6FB5"></span></button>
+  </div>
+
+  <p class="settings-label">Text size:</p>
+  <div class="settings-row">
+    <button class="opt" data-size="100">S</button>
+    <button class="opt" data-size="112">M</button>
+    <button class="opt" data-size="125">L</button>
+  </div>
+
+  <label class="settings-check">
+    <input type="checkbox" id="reduceMotion">Reduce animations
+  </label>
+
+  <button id="resetSettings" class="settings-reset">Reset to default</button>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
